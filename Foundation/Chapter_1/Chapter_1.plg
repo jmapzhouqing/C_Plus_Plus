@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Chapter_1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP84E3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Chapter_1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\Project\C++\Foundation\Chapter_1\Name.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP84E3.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP84F3.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Chapter_1.pdb" /debug /machine:I386 /out:"Debug/Chapter_1.exe" /pdbtype:sept 
+".\Debug\Name.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP84F3.tmp"
+<h3>Output Window</h3>
+Compiling...
+Name.cpp
+G:\Project\C++\Foundation\Chapter_1\Name.cpp(6) : warning C4091: '' : ignored on left of 'int' when no variable is declared
+G:\Project\C++\Foundation\Chapter_1\Name.cpp(6) : error C2143: syntax error : missing ';' before '/'
+G:\Project\C++\Foundation\Chapter_1\Name.cpp(6) : error C2143: syntax error : missing ';' before '/'
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+Chapter_1.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
