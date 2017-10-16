@@ -2,15 +2,16 @@
 #define _STUDENT_H_
 
 class Student{
-private:
+public:
 	int id;
 	int score;
+	char* name;
 
 public:
-	Student(int id);
+	Student(const char* pName,int id);
 	~Student();
 	
-	inline int getId(){
+	inline int getId() const{
 		return this->id;	
 	};
 
@@ -18,13 +19,16 @@ public:
 		this->id = id;
 	};
 
-	int getScore(){
+	int getScore() const{
 		return this->score;
 	};
 	void setScore(int score){
 		this->score = score;
 	};
 
+private:
+	Student(const Student&);
+	Student& operator=(const Student& other);
 };
 
 

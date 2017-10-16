@@ -6,20 +6,31 @@
 --------------------Configuration: Constructor - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1F8.tmp" with contents
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1113.tmp" with contents
 [
-kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Constructor.pdb" /debug /machine:I386 /out:"Debug/Constructor.exe" /pdbtype:sept 
-".\Debug\Car.obj"
-".\Debug\Student.obj"
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/Constructor.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\Git\C_Plus_Plus\Constructor\Student.cpp"
 ]
-Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB1F8.tmp"
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1113.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP1124.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/Constructor.pdb" /debug /machine:I386 /out:"Debug/Constructor.exe" /pdbtype:sept 
+.\Debug\Car.obj
+.\Debug\Student.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP1124.tmp"
 <h3>Output Window</h3>
+Compiling...
+Student.cpp
 Linking...
+LIBCD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/Constructor.exe : fatal error LNK1120: 1 unresolved externals
+Ö´ÐÐ link.exe Ê±³ö´í.
 
 
 
 <h3>Results</h3>
-Constructor.exe - 0 error(s), 0 warning(s)
+Constructor.exe - 1 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
